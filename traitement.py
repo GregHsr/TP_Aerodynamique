@@ -63,7 +63,7 @@ for i in range(len(Angle_alpha)):
 # Tracé du profil d'aile
 
 plt.figure(1)
-plt.plot(data_angle[1], data_angle[2], label = "Profil d'aile")
+plt.plot(data_angle[1], data_angle[2],'o',label = "Profil d'aile")
 plt.xlabel("x")
 plt.ylabel("y")
 plt.legend()
